@@ -28,6 +28,7 @@ type Props = {
   onVideoSelect: (videoUrl: string) => void
 }
 
+/////// PexelsPicker //////////////
 export const PexelsPicker = ({ videoSize, onVideoSelect }: Props) => {
   const [isFetching, setIsFetching] = useState(false)
   const [videos, setVideos] = useState<Video[]>([])
